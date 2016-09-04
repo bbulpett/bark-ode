@@ -1,5 +1,5 @@
 # bark-odor
 
-![Logo](github.com/bbulpett/bark-odor/assets/bark-odor-logo.jpg)
+![Logo](https://github.com/bbulpett/bark-odor/blob/master/assets/bark-odor-logo.jpg)
 
 Simple API that decodes barcodes
