@@ -42,6 +42,8 @@ GEM
     rack (2.0.1)
     rack-accept (0.4.5)
       rack (>= 0.4)
+    rack-test (0.6.3)
+      rack (>= 1.0)
     rake (11.2.2)
     thread_safe (0.3.5)
     tzinfo (1.2.2)
@@ -57,7 +59,9 @@ PLATFORMS
 
 DEPENDENCIES
   grape
+  minitest
   passenger
+  rack-test
 
 BUNDLED WITH
    1.12.5
