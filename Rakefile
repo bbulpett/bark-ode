@@ -2,7 +2,7 @@ require "rake/testtask"
 
 Rake::TestTask.new do |t|
 	t.pattern = "test/**/*_test.rb"
-	t.libs << "lib"
+	t.libs << "api"
 	t.libs << "test"
 end
 
