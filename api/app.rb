@@ -5,9 +5,13 @@ module API
     format :json
     prefix :api
 
+    content_type :txt, 'text/plain'
+
 		desc 'Display a welcome message.'
-		get '/greeting' do
-			{"Thanks for using Bark-Odor. Woof Woof!"}
+		get 'greeting' do
+			content_type 'text/plain'
+			'Thanks for using Bark-Odor. Woof Woof!'
+			# { greeting: 'Thanks for using Bark-Odor. Woof Woof!' }
 		end
 
 	end
