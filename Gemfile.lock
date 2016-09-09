@@ -18,6 +18,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.1)
     enumerable-lazy (0.0.1)
     equalizer (0.0.11)
+    ffi (1.9.14)
     grape (0.17.0)
       activesupport
       builder
@@ -53,6 +54,8 @@ GEM
       coercible (~> 1.0)
       descendants_tracker (~> 0.0, >= 0.0.3)
       equalizer (~> 0.0, >= 0.0.9)
+    zbar (0.2.2)
+      ffi (>= 1.0.0)
 
 PLATFORMS
   ruby
@@ -62,6 +65,7 @@ DEPENDENCIES
   minitest
   passenger
   rack-test
+  zbar
 
 BUNDLED WITH
    1.12.5

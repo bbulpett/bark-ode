@@ -4,6 +4,7 @@ source "https://rubygems.org"
 
 gem 'grape'
 gem 'passenger'
+gem 'zbar'
 
 group :test do
 	gem 'minitest', require: false
